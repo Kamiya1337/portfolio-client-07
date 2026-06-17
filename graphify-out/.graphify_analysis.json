@@ -1,0 +1,262 @@
+{
+  "communities": {
+    "0": [
+      "components_evidencetable",
+      "components_evidencetable_evidencetable",
+      "components_hometab",
+      "components_hometab_hometab",
+      "components_printview",
+      "components_printview_printview",
+      "components_projectstab",
+      "components_projectstab_projectstab",
+      "components_rubrictable",
+      "components_rubrictable_rubrictable",
+      "components_sidebar",
+      "components_sidebar_sidebar",
+      "components_summary",
+      "components_summary_summary",
+      "data_portfoliodata",
+      "data_portfoliodata_portfoliodata",
+      "src_app"
+    ],
+    "1": [
+      "package",
+      "package_dependencies",
+      "package_dependencies_lucide_react",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview",
+      "package_type",
+      "package_version"
+    ],
+    "2": [
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_js",
+      "package_devdependencies_eslint_plugin_react_hooks",
+      "package_devdependencies_eslint_plugin_react_refresh",
+      "package_devdependencies_globals",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react"
+    ],
+    "3": [
+      "bai_3_docx",
+      "bai_3_pdf",
+      "bai_3_png",
+      "bai_4_docx",
+      "bai_4_pdf",
+      "bai_5_docx",
+      "bai_5_pdf",
+      "bai_6_docx",
+      "bai_6_pdf",
+      "bai_7_pdf",
+      "cns_portfolio"
+    ],
+    "4": [
+      "agents_graphify",
+      "index_html",
+      "logo_png",
+      "portfolio_concept",
+      "public_logo_png",
+      "readme_react_vite",
+      "src_app_app",
+      "src_main",
+      "src_main_jsx"
+    ],
+    "5": [
+      "bai_1_docx",
+      "bai_1_pdf_ref",
+      "bai_1_png"
+    ],
+    "6": [
+      "bai_2_docx",
+      "bai_2_pdf_ref",
+      "bai_2_png"
+    ],
+    "7": [
+      "eslint_config"
+    ],
+    "8": [
+      "hero_png"
+    ],
+    "9": [
+      "index_root"
+    ],
+    "10": [
+      "postcss_config"
+    ],
+    "11": [
+      "public_docs_bai_1_pdf"
+    ],
+    "12": [
+      "public_docs_bai_2_pdf"
+    ],
+    "13": [
+      "public_docs_bai_3_pdf"
+    ],
+    "14": [
+      "public_favicon_svg"
+    ],
+    "15": [
+      "public_icons_svg"
+    ],
+    "16": [
+      "react_svg"
+    ],
+    "17": [
+      "tailwind_config"
+    ],
+    "18": [
+      "vite_config"
+    ],
+    "19": [
+      "vite_svg"
+    ]
+  },
+  "cohesion": {
+    "0": 0.23529411764705882,
+    "1": 0.14285714285714285,
+    "2": 0.15384615384615385,
+    "3": 0.21818181818181817,
+    "4": 0.2222222222222222,
+    "5": 0.6666666666666666,
+    "6": 0.6666666666666666,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0
+  },
+  "gods": [
+    {
+      "id": "bai_3_png",
+      "label": "Google Drive Screenshot - B\u00e0i 3",
+      "degree": 8
+    },
+    {
+      "id": "data_portfoliodata_portfoliodata",
+      "label": "portfolioData",
+      "degree": 6
+    },
+    {
+      "id": "index_html",
+      "label": "Index HTML",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 2
+    },
+    {
+      "id": "components_evidencetable_evidencetable",
+      "label": "EvidenceTable()",
+      "degree": 2
+    },
+    {
+      "id": "components_hometab_hometab",
+      "label": "HomeTab()",
+      "degree": 2
+    },
+    {
+      "id": "components_printview_printview",
+      "label": "PrintView()",
+      "degree": 2
+    },
+    {
+      "id": "components_projectstab_projectstab",
+      "label": "ProjectsTab()",
+      "degree": 2
+    },
+    {
+      "id": "components_rubrictable_rubrictable",
+      "label": "RubricTable()",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Index HTML",
+      "target": "ULIS Logo",
+      "source_files": [
+        "index.html",
+        "public/logo.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `ULIS Logo` unexpectedly reaches hub `Index HTML`"
+    },
+    {
+      "source": "Index HTML",
+      "target": "\u0110\u1ea1i h\u1ecdc C\u00f4ng ngh\u1ec7 Logo",
+      "source_files": [
+        "index.html",
+        "public/logo.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `\u0110\u1ea1i h\u1ecdc C\u00f4ng ngh\u1ec7 Logo` unexpectedly reaches hub `Index HTML`"
+    },
+    {
+      "source": "Index HTML",
+      "target": "Main Entry Point",
+      "source_files": [
+        "index.html",
+        "src/main.jsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `Main Entry Point` unexpectedly reaches hub `Index HTML`"
+    },
+    {
+      "source": "React + Vite Template",
+      "target": "Index HTML",
+      "source_files": [
+        "README.md",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `React + Vite Template` unexpectedly reaches hub `Index HTML`"
+    },
+    {
+      "source": "Graphify Agent Instructions",
+      "target": "React + Vite Template",
+      "source_files": [
+        "AGENTS.md",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 1969,
+    "output": 855
+  }
+}

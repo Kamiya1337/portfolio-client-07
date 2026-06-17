@@ -1,0 +1,515 @@
+<!DOCTYPE html><html class="light" lang="vi"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Portfolio học phần - Phạm Thị Thuý Nga</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed": "#ffd9e1",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#ffb1c6",
+                        "surface-container": "#f3eaff",
+                        "surface-dim": "#dfd6f0",
+                        "background": "#fdf7ff",
+                        "error": "#ba1a1a",
+                        "primary-container": "#d03975",
+                        "surface-variant": "#e8def9",
+                        "on-primary-container": "#fffbff",
+                        "surface-tint": "#b21f5f",
+                        "tertiary": "#625a5e",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#f5eeff",
+                        "surface": "#fdf7ff",
+                        "on-secondary-fixed-variant": "#66384d",
+                        "tertiary-fixed-dim": "#cec4c8",
+                        "outline-variant": "#dfbec5",
+                        "on-surface": "#1e192b",
+                        "on-tertiary-fixed-variant": "#4c4549",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#7b7277",
+                        "outline": "#8b7076",
+                        "surface-bright": "#fdf7ff",
+                        "tertiary-fixed": "#ebdfe4",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#8e0047",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#332d41",
+                        "on-tertiary-container": "#fffbff",
+                        "secondary": "#815065",
+                        "on-secondary-container": "#7b4b60",
+                        "secondary-container": "#ffc0d9",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed": "#ffd8e6",
+                        "on-surface-variant": "#584146",
+                        "on-primary-fixed": "#3f001c",
+                        "surface-container-highest": "#e8def9",
+                        "surface-container-high": "#eee4ff",
+                        "on-secondary-fixed": "#330e21",
+                        "secondary-fixed-dim": "#f3b5ce",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#ffb1c6",
+                        "on-tertiary-fixed": "#1f1a1e",
+                        "on-background": "#1e192b",
+                        "primary": "#af1b5c",
+                        "surface-container-low": "#f8f1ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-padding-mobile": "20px",
+                        "container-padding-desktop": "40px",
+                        "stack-md": "16px",
+                        "gutter": "24px",
+                        "stack-sm": "8px",
+                        "stack-lg": "32px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Plus Jakarta Sans"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "label-caps": ["Plus Jakarta Sans"],
+                        "body-md": ["Plus Jakarta Sans"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"],
+                        "display-lg": ["Plus Jakarta Sans"],
+                        "label-md": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #FFFDFB;
+            color: #1e192b;
+            scroll-behavior: smooth;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .soft-card-shadow {
+            box-shadow: 0 4px 12px 0 rgba(244, 182, 207, 0.05);
+        }
+        .soft-card-shadow:hover {
+            box-shadow: 0 10px 20px 0 rgba(244, 182, 207, 0.1);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+        .ivory-canvas {
+            background-color: #FFFDFB;
+        }
+        .rose-border {
+            border: 1px solid #F4B6CF;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex justify-between items-center max-w-[1200px] mx-auto px-container-padding-desktop py-4">
+<div class="flex items-center gap-4">
+<div class="font-headline-md text-headline-md font-bold text-on-surface bg-surface-container-highest px-3 py-1 rounded-xl shadow-sm">
+                    NMA
+                </div>
+<div class="hidden md:block">
+<p class="font-label-caps text-label-caps text-primary">International Language Portfolio</p>
+<p class="font-body-md text-sm text-on-surface-variant opacity-80">Công nghệ số &amp; AI</p>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="hidden md:flex gap-6">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 transition-colors duration-200" href="#ho-so">Hồ sơ</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#bai-tap">Bài tập</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#tong-ket">Tổng kết</a>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</div>
+</div>
+</nav>
+<main class="max-w-[1200px] mx-auto px-container-padding-desktop mt-32 space-y-24">
+<!-- Hero Section -->
+<section class="rose-border rounded-3xl p-10 bg-white soft-card-shadow" style="border-color: rgb(244, 182, 207);">
+<div class="max-w-4xl">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">PORTFOLIO / DIGITAL &amp; AI LEARNING</span>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-4 leading-tight">
+                    Portfolio học phần — <br>
+<span class="text-primary">Phạm Thị Thuý Nga</span>
+</h1>
+<p class="font-headline-md text-headline-md text-secondary mb-8">
+                    Kỹ năng số, AI và tư duy học tập trong ngành Ngành Tiếng Việt và Văn hoá Việt Nam
+                </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl leading-relaxed">
+                    Tôi hiện là sinh viên chuyên ngành Tiếng Việt và Văn hoá Việt Nam, nơi sự giao thoa giữa văn hóa và công nghệ đang định hình lại tương lai giáo dục. Portfolio này là tập hợp minh chứng về hành trình làm chủ các công cụ số, ứng dụng AI để tối ưu hóa quy trình học thuật và nghiên cứu ngôn ngữ một cách có trách nhiệm.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter border-t border-outline-variant pt-8">
+<div>
+<span class="font-label-caps text-label-caps text-primary block mb-1">TRƯỜNG</span>
+<p class="font-label-md text-label-md">Đại học Ngoại ngữ, ĐHQGHN</p>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-primary block mb-1">NGÀNH</span>
+<p class="font-label-md text-label-md">Tiếng Việt và Văn hoá Việt Nam</p>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-primary block mb-1">MÔN HỌC</span>
+<p class="font-label-md text-label-md">Công nghệ số &amp; AI</p>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-primary block mb-1">ĐỊNH HƯỚNG</span>
+<p class="font-label-md text-label-md">Digital Linguistics &amp; AI</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Profile & Visuals -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-5">
+<div class="rounded-3xl overflow-hidden rose-border aspect-[4/5] relative">
+
+<div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-6 py-4 rounded-2xl border border-primary/20">
+<p class="font-label-caps text-label-caps text-primary mb-1">STUDENT PROFILE</p>
+<p class="font-headline-md text-on-surface">Thúy Nga, N.T.</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 space-y-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="rose-border rounded-2xl p-6 bg-white soft-card-shadow" style="border-color: rgb(244, 182, 207);">
+<span class="font-label-caps text-label-caps text-primary mb-2 block">GLOBAL LEARNING</span>
+<p class="font-headline-md text-primary-container font-bold">VNU-ULIS</p>
+<p class="text-sm text-on-surface-variant mt-2">Môi trường đào tạo ngoại ngữ hàng đầu với định hướng chuyển đổi số toàn diện.</p>
+</div>
+<div class="rose-border rounded-2xl p-6 bg-white soft-card-shadow" style="border-color: rgb(244, 182, 207);">
+<span class="font-label-caps text-label-caps text-primary mb-2 block">LANGUAGE &amp; CULTURE</span>
+<p class="font-headline-md text-secondary font-bold">Vietnamese Studies</p>
+<p class="text-sm text-on-surface-variant mt-2">Nghiên cứu sâu về ngôn ngữ thông qua lăng kính công nghệ hiện đại.</p>
+</div>
+</div>
+<div class="rose-border rounded-2xl p-8 bg-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">AI NOTE</span>
+<p class="font-body-lg italic text-on-surface">"Công nghệ không thay thế con người, nhưng người biết dùng AI sẽ dẫn dắt tương lai."</p>
+</div>
+<span class="material-symbols-outlined text-4xl text-primary/30">format_quote</span>
+</div>
+<!-- Stats Row -->
+<div class="flex flex-wrap gap-4 pt-4">
+<div class="px-6 py-4 rounded-full rose-border bg-white flex items-center gap-3">
+<span class="text-2xl font-bold text-primary">06</span>
+<span class="text-sm font-medium">Bài thực hành</span>
+</div>
+<div class="px-6 py-4 rounded-full rose-border bg-white flex items-center gap-3">
+<span class="text-2xl font-bold text-primary">ULIS</span>
+<span class="text-sm font-medium">Trường Đại học</span>
+</div>
+<div class="px-6 py-4 rounded-full rose-border bg-white flex items-center gap-3">
+<span class="text-2xl font-bold text-primary">AI</span>
+<span class="text-sm font-medium">Kỹ năng số</span>
+</div>
+<div class="px-6 py-4 rounded-full rose-border bg-white flex items-center gap-3">
+<span class="text-2xl font-bold text-primary">EN</span>
+<span class="text-sm font-medium">Tiếng Việt và Văn hoá Việt Nam</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Learning Index -->
+<section class="space-y-8" id="bai-tap">
+<div class="flex items-end justify-between border-b border-outline-variant pb-6">
+<div>
+<span class="font-label-caps text-label-caps text-primary">LEARNING INDEX</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Bản đồ học tập</h2>
+</div>
+<p class="text-on-surface-variant max-w-sm text-right hidden md:block">Lộ trình rèn luyện kỹ năng từ quản lý cơ bản đến ứng dụng AI chuyên sâu trong ngành ngoại ngữ.</p>
+</div>
+<div class="space-y-4">
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">01</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Quản lý tệp và cấu trúc dữ liệu học tập số</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">02</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Khai thác và đánh giá nguồn tin học thuật đa ngôn ngữ</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">03</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Thiết kế Prompt hiệu quả cho dịch thuật và phân tích văn bản</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">04</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Cộng tác trực tuyến trong các dự án ngôn ngữ &amp; văn hóa</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">05</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Sáng tạo nội dung số và biên dịch AI-assisted</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+<div class="group flex items-center gap-8 p-6 bg-white rose-border rounded-2xl soft-card-shadow transition-all cursor-pointer">
+<span class="text-2xl font-bold text-primary/40 group-hover:text-primary">06</span>
+<div class="h-10 w-px bg-outline-variant"></div>
+<p class="font-headline-md text-on-surface">Ứng dụng AI có trách nhiệm và liêm chính trong ULIS context</p>
+<span class="material-symbols-outlined ml-auto text-primary opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+</div>
+</section>
+<!-- Digital Learning Profile -->
+<section class="space-y-12" id="ho-so">
+<div class="max-w-2xl">
+<span class="font-label-caps text-label-caps text-primary">DIGITAL LEARNING PROFILE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Hồ sơ học tập</h2>
+<p class="text-on-surface-variant leading-relaxed">Phần này trình bày chi tiết về định hướng và mục tiêu phát triển năng lực số của tôi tại Trường Đại học Ngoại ngữ - Đại học Quốc gia Hà Nội, nơi mỗi sinh viên được khuyến khích trở thành một công dân toàn cầu thông thạo cả ngôn ngữ lẫn công nghệ.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Profile Cards -->
+<div class="rose-border p-6 rounded-2xl bg-white soft-card-shadow">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">PROFILE</span>
+<h3 class="font-headline-md mb-3">Thông tin học tập</h3>
+<p class="text-sm leading-relaxed text-on-surface-variant">Sinh viên năm thứ nhất chuyên ngành Tiếng Việt và Văn hoá Việt Nam. Tập trung nghiên cứu về sự kết hợp giữa ngôn ngữ học và các thuật toán AI để tối ưu hóa việc học ngoại ngữ.</p>
+</div>
+<div class="rose-border p-6 rounded-2xl bg-white soft-card-shadow">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">OBJECTIVE</span>
+<h3 class="font-headline-md mb-3">Mục tiêu học phần</h3>
+<p class="text-sm leading-relaxed text-on-surface-variant">Thành thạo các công cụ quản lý dự án, nâng cao khả năng phản biện thông tin số và sử dụng AI như một trợ lý ngôn ngữ đắc lực trong nghiên cứu dịch thuật.</p>
+</div>
+<div class="rose-border p-6 rounded-2xl bg-white soft-card-shadow">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">PURPOSE</span>
+<h3 class="font-headline-md mb-3">Lý do xây dựng portfolio</h3>
+<p class="text-sm leading-relaxed text-on-surface-variant">Hệ thống hóa tiến trình học tập, lưu trữ các sản phẩm số và tạo dấu ấn cá nhân trong thị trường lao động 4.0 đòi hỏi sự am hiểu về công nghệ.</p>
+</div>
+<div class="rose-border p-6 rounded-2xl bg-white soft-card-shadow">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">SKILLS</span>
+<h3 class="font-headline-md mb-3">Kỹ năng muốn phát triển</h3>
+<p class="text-sm leading-relaxed text-on-surface-variant">Prompt Engineering, Content Digital Creation, Digital Collaboration và Academic Integrity trong kỷ nguyên trí tuệ nhân tạo.</p>
+</div>
+<div class="rose-border p-6 rounded-2xl bg-white soft-card-shadow lg:col-span-2">
+<span class="font-label-caps text-label-caps text-primary mb-4 block">DIGITAL FOCUS</span>
+<h3 class="font-headline-md mb-3">Định hướng ứng dụng</h3>
+<p class="text-sm leading-relaxed text-on-surface-variant">Ứng dụng các nền tảng LLMs (Large Language Models) để hỗ trợ biên tập văn bản, tra cứu thuật ngữ chuyên ngành và xây dựng các chiến dịch truyền thông đa phương thức dựa trên dữ liệu.</p>
+</div>
+</div>
+</section>
+<!-- Digital Learning Cases -->
+<section class="space-y-12">
+<div class="text-center space-y-2">
+<span class="font-label-caps text-label-caps text-primary">DIGITAL LEARNING CASES</span>
+<h2 class="font-display-lg text-headline-lg text-on-surface">6 case học phần</h2>
+<p class="text-on-surface-variant mx-auto max-w-xl">Tổng hợp các bài tập thực hành tiêu biểu, phản ánh quá trình chuyển đổi từ tư duy học tập truyền thống sang ứng dụng AI linh hoạt.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Case 01 -->
+<div class="rose-border rounded-2xl overflow-hidden bg-white soft-card-shadow group">
+<div class="h-2 bg-primary"></div>
+<div class="p-8 space-y-6">
+<div>
+<span class="text-sm font-bold text-outline uppercase tracking-wider block mb-2">Case 01</span>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">DIGITAL LEARNING</span>
+<h4 class="font-headline-md text-on-surface group-hover:text-primary transition-colors">Quản lý tệp và thư mục</h4>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Xây dựng hệ thống lưu trữ đám mây khoa học, phân loại tài liệu theo cấu trúc mã môn học và kỳ học để tối ưu hóa việc truy xuất dữ liệu.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Tệp tin</span>
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Tổ chức</span>
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Cloud</span>
+</div>
+<div class="flex gap-4 pt-4 border-t border-outline-variant">
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-container transition-all">Xem chi tiết</button>
+<button class="border border-primary text-primary px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-fixed transition-all">Mở PDF</button>
+</div>
+</div>
+</div>
+<!-- Case 02 -->
+<div class="rose-border rounded-2xl overflow-hidden bg-white soft-card-shadow group" style="border-color: rgb(244, 182, 207);">
+<div class="h-2 bg-secondary"></div>
+<div class="p-8 space-y-6">
+<div>
+<span class="text-sm font-bold text-outline uppercase tracking-wider block mb-2">Case 02</span>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">INFORMATION LITERACY</span>
+<h4 class="font-headline-md text-on-surface group-hover:text-primary transition-colors">Đánh giá nguồn tin số</h4>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Phân tích tính xác thực của các nguồn tài liệu học thuật trực tuyến, nhận diện "Fake news" và các thiên kiến trong dữ liệu ngôn ngữ.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Critical Thinking</span>
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Data</span>
+</div>
+<div class="flex gap-4 pt-4 border-t border-outline-variant">
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-container transition-all">Xem chi tiết</button>
+<button class="border border-primary text-primary px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-fixed transition-all">Mở PDF</button>
+</div>
+</div>
+</div>
+<!-- Case 03 -->
+<div class="rose-border rounded-2xl overflow-hidden bg-white soft-card-shadow group">
+<div class="h-2 bg-primary"></div>
+<div class="p-8 space-y-6">
+<div>
+<span class="text-sm font-bold text-outline uppercase tracking-wider block mb-2">Case 03</span>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">PROMPT ENGINEERING</span>
+<h4 class="font-headline-md text-on-surface group-hover:text-primary transition-colors">Thiết kế Prompt cho Ngoại ngữ</h4>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Thử nghiệm các cấu trúc prompt khác nhau để hỗ trợ việc học từ vựng chuyên ngành và giải thích các điểm ngữ pháp phức tạp bằng tiếng Việt.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">ChatGPT</span>
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Prompt</span>
+</div>
+<div class="flex gap-4 pt-4 border-t border-outline-variant">
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-container transition-all">Xem chi tiết</button>
+<button class="border border-primary text-primary px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-fixed transition-all">Mở PDF</button>
+</div>
+</div>
+</div>
+<!-- Case 04 -->
+<div class="rose-border rounded-2xl overflow-hidden bg-white soft-card-shadow group" style="border-color: rgb(244, 182, 207);">
+<div class="h-2 bg-secondary"></div>
+<div class="p-8 space-y-6">
+<div>
+<span class="text-sm font-bold text-outline uppercase tracking-wider block mb-2">Case 04</span>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">COLLABORATION</span>
+<h4 class="font-headline-md text-on-surface group-hover:text-primary transition-colors">Làm việc nhóm trên nền tảng số</h4>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Sử dụng Notion và Google Workspace để điều phối dự án nghiên cứu văn hóa Việt-Mỹ trong môi trường làm việc trực tuyến.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Notion</span>
+<span class="px-3 py-1 rounded-full border border-outline-variant text-[11px] font-bold text-on-surface-variant uppercase">Teams</span>
+</div>
+<div class="flex gap-4 pt-4 border-t border-outline-variant">
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-container transition-all">Xem chi tiết</button>
+<button class="border border-primary text-primary px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-fixed transition-all">Mở PDF</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Learning Outcomes -->
+<section class="space-y-12" id="tong-ket">
+<div class="bg-primary-container text-white p-12 rounded-3xl soft-card-shadow overflow-hidden relative">
+<div class="relative z-10">
+<span class="font-label-caps text-label-caps text-primary-fixed mb-4 block">LEARNING OUTCOMES &amp; DIGITAL SKILLS</span>
+<h2 class="font-headline-lg text-display-lg mb-6">Tổng kết kỹ năng</h2>
+<p class="max-w-2xl opacity-90 leading-relaxed text-body-lg">Hành trình 15 tuần trải nghiệm học phần đã giúp tôi định hình lại cách tiếp cận tri thức. Không chỉ là công nghệ, đó là tư duy đổi mới để thích ứng với thế giới số.</p>
+</div>
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-primary/20 rounded-full blur-2xl -ml-10 -mb-10"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Outcome Cards -->
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">01</span>
+<h5 class="font-headline-md mb-4">Đã học được</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Kỹ thuật tinh chỉnh prompt cho các tác vụ ngôn ngữ phức tạp và quy trình quản lý dự án số tinh gọn.</p>
+</div>
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">02</span>
+<h5 class="font-headline-md mb-4">Kỹ năng cải thiện</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Tư duy phản biện khi tiếp nhận thông tin từ AI và khả năng cộng tác đa nền tảng hiệu quả.</p>
+</div>
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">03</span>
+<h5 class="font-headline-md mb-4">Khó khăn</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Việc cân bằng giữa tính sáng tạo cá nhân và sự hỗ trợ tự động từ các công cụ AI thế hệ mới.</p>
+</div>
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">04</span>
+<h5 class="font-headline-md mb-4">Cách khắc phục</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Thiết lập quy trình kiểm chứng kép (double-check) và luôn giữ vai trò "người điều hướng" trung tâm.</p>
+</div>
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">05</span>
+<h5 class="font-headline-md mb-4">Định hướng tương lai</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Tiếp tục nghiên cứu chuyên sâu về Computational Linguistics và ứng dụng AI trong giảng dạy tiếng Việt.</p>
+</div>
+<div class="bg-white rose-border p-8 rounded-2xl soft-card-shadow">
+<span class="text-2xl font-bold text-primary mb-4 block">06</span>
+<h5 class="font-headline-md mb-4">Liêm chính học thuật</h5>
+<p class="text-sm text-on-surface-variant leading-relaxed">Cam kết sử dụng AI minh bạch, có trích dẫn nguồn rõ ràng và tuân thủ các quy định đạo đức của ULIS.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 mt-32 border-t border-outline-variant bg-surface ivory-canvas">
+<div class="flex flex-col items-center justify-center text-center gap-4 w-full px-container-padding-desktop max-w-[1200px] mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary mb-2">NMA</div>
+<p class="font-headline-md text-on-surface font-semibold">Phạm Thị Thuý Nga — MSSV: 24071052</p>
+<div class="flex flex-col md:flex-row gap-4 text-on-surface-variant font-body-md opacity-80">
+<span class="">Trường Đại học Ngoại ngữ, ĐHQGHN</span>
+<span class="hidden md:inline">•</span>
+<span class="">Ngành Tiếng Việt và Văn hoá Việt Nam — Công nghệ số &amp; AI</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/30 w-full flex justify-between items-center text-xs text-on-surface-variant">
+<p class="">© 2024 Digital Learning Portfolio. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-all underline underline-offset-4" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-all underline underline-offset-4" href="#">Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions for card hover effects
+        document.querySelectorAll('.soft-card-shadow').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.borderColor = '#af1b5c';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.borderColor = '#F4B6CF';
+            });
+        });
+
+        // Simple smooth scroll highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 120) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-primary', 'font-bold', 'border-b-2', 'border-primary');
+                link.classList.add('text-on-surface-variant', 'font-medium');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('text-primary', 'font-bold', 'border-b-2', 'border-primary');
+                    link.classList.remove('text-on-surface-variant', 'font-medium');
+                }
+            });
+        });
+    </script>
+
+
+</body></html>

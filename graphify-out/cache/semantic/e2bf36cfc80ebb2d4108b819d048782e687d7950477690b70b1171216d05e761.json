@@ -1,0 +1,1 @@
+{"nodes": [{"id": "readme_react_vite", "label": "React + Vite Template", "file_type": "document", "source_file": "README.md", "source_location": null}], "edges": [{"source": "readme_react_vite", "target": "index_html", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.9, "source_file": "README.md"}], "hyperedges": []}
