@@ -91,7 +91,7 @@ export default function HomeTab() {
             <Quote className="absolute right-6 top-5 text-academic-pastel" size={38} />
             <span className="section-kicker">A note</span>
             <p className="mt-4 max-w-2xl text-lg italic leading-8 text-academic-ink">
-              “Công nghệ không thay thế quá trình tự học, nhưng nếu được sử dụng một cách tỉnh táo, nó có thể giúp người học hiểu vấn đề nhanh hơn, chủ động hơn và biết nhìn lại cách mình học.”
+              “Công nghệ không thay thế quá trình tự học, nhưng khi được sử dụng một cách tỉnh táo, nó trở thành người bạn đồng hành giúp người học hiểu vấn đề nhanh hơn, học tập chủ động hơn, phát triển tư duy hiệu quả hơn và từng bước làm chủ tri thức trong thế giới không ngừng thay đổi.”
             </p>
           </blockquote>
         </div>
